@@ -21,17 +21,23 @@
             android:id="@+id/home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+
             android:text="HOME" />
 
         <Button
             android:id="@+id/about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+
             android:text="ABOUT US" />
         <Button
             android:id="@+id/contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+
             android:text="CONTACT CFC" />
     </LinearLayout>
 
@@ -51,16 +57,6 @@
                 android:src="@drawable/founder" />
 
             <TextView
-                android:id="@+id/title_text_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="15dp"
-                android:text="@string/Foundertitle"
-                android:textColor="#4689C8"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -70,12 +66,22 @@
                 android:textColor="?android:attr/textColorLinkInverse" />
 
             <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/Foundertitle"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/title1_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="15dp"
                 android:text="@string/rev_dr_n_durairaj_m_a_th_d_d"
-                android:textColor="#4689C8"
+                android:textColor="@android:color/holo_red_dark"
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
@@ -106,7 +112,7 @@
                     android:paddingLeft="10dp"
                     android:paddingTop="90dp"
                     android:text="@string/dr_rene_robin_n_dr_doreen_robin"
-                    android:textColor="#4689C8"
+                    android:textColor="@android:color/holo_red_dark"
                     android:textSize="15sp"
                     android:textStyle="bold" />
             </LinearLayout>

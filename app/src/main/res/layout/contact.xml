@@ -10,26 +10,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
         <Button
             android:id="@+id/home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="HOME" />
 
         <Button
             android:id="@+id/about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+
             android:text="ABOUT US" />
 
         <Button
             android:id="@+id/contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+
             android:text="CONTACT CFC" />
 
     </LinearLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -56,7 +63,7 @@
         android:gravity="right"
         android:layout_gravity="right"
         android:text="ADDRESS:"
-        android:textColor="#4689C8"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="15sp"
         android:textStyle="bold" />
 
@@ -71,7 +78,7 @@
         android:paddingTop="15dp"
         android:inputType="textMultiLine"
         android:text="@string/add1"
-        android:textColor="?android:attr/textColorLinkInverse" />
+        android:textColor="@color/wallet_link_text_light" />
     <TextView
         android:id="@+id/phno_text_view"
         android:layout_width="wrap_content"
@@ -80,7 +87,7 @@
         android:gravity="right"
         android:layout_gravity="right"
         android:text="Contact Numbers:"
-        android:textColor="#4689C8"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="15sp"
         android:textStyle="bold" />
 
@@ -93,7 +100,7 @@
         android:gravity="right"
         android:inputType="textMultiLine"
         android:text="@string/nos"
-        android:textColor="?android:attr/textColorLinkInverse" />
+        android:textColor="@color/wallet_link_text_light" />
 
     <TextView
         android:id="@+id/mailid_text_view"
@@ -103,7 +110,7 @@
         android:gravity="right"
         android:layout_gravity="right"
         android:text="E-Mail Id:"
-        android:textColor="#4689C8"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="15sp"
         android:textStyle="bold" />
 
@@ -116,7 +123,7 @@
         android:gravity="right"
         android:inputType="textMultiLine"
         android:text="bethelmission@gmail.com"
-        android:textColor="?android:attr/textColorLinkInverse" />
+        android:textColor="@color/wallet_link_text_light" />
 
     <TextView
         android:id="@+id/msg_text_view"
@@ -126,7 +133,7 @@
         android:gravity="center"
         android:layout_gravity="center"
         android:text="Contact Us"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="15sp"
         android:textStyle="bold" />
 
@@ -136,7 +143,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="25dp"
                 android:text="NAME"
-                android:textColor="#4689C8"
+                android:textColor="@android:color/holo_red_dark"
                 android:textSize="15sp"
                 android:textStyle="bold" />
             <EditText
@@ -145,14 +152,14 @@
                 android:inputType="textPersonName"
                 android:hint="Enter Name"
                 android:ems="10"
-                android:id="@+id/editText3" />
+                android:id="@+id/etname" />
             <TextView
                 android:id="@+id/id_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="25dp"
                 android:text="MAIL-ID"
-                android:textColor="#4689C8"
+                android:textColor="@android:color/holo_red_dark"
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
@@ -162,7 +169,7 @@
                 android:inputType="textEmailAddress"
                 android:ems="10"
                 android:hint="Enter Email"
-                android:id="@+id/editText5" />
+                android:id="@+id/etmail" />
 
             <TextView
                 android:id="@+id/cellno_text_view"
@@ -170,7 +177,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="25dp"
                 android:text="Cell Phone"
-                android:textColor="#4689C8"
+                android:textColor="@android:color/holo_red_dark"
                 android:textSize="15sp"
                 android:textStyle="bold" />
             <EditText
@@ -179,7 +186,7 @@
                 android:inputType="phone"
                 android:hint="Enter Phone Number"
                 android:ems="10"
-                android:id="@+id/editText4" />
+                android:id="@+id/etphone" />
 
             <TextView
                 android:id="@+id/message_text_view"
@@ -187,7 +194,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="25dp"
                 android:text="Message"
-                android:textColor="#4689C8"
+                android:textColor="@android:color/holo_red_dark"
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
@@ -197,7 +204,7 @@
                 android:inputType="textMultiLine"
                 android:ems="10"
                 android:hint="Enter Your Message"
-                android:id="@+id/editText6" />
+                android:id="@+id/etmsg" />
 
             <Button
                 android:id="@+id/submit"
@@ -219,4 +226,4 @@
                 android:text="VIEW" />
         </LinearLayout>
             </ScrollView>
-    </LinearLayout>
+</LinearLayout>
