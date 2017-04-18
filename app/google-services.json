@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "3588451627",
+    "firebase_url": "https://concernforchildren-master.firebaseio.com",
+    "project_id": "concernforchildren-master",
+    "storage_bucket": "concernforchildren-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3588451627:android:ff9805d915496420",
+        "android_client_info": {
+          "package_name": "com.example.steffy.cfcwebapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3588451627-0vh37iljhmo44bogb6q3610tgul91jub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.steffy.cfcwebapp",
+            "certificate_hash": "24f872a36abfe49d99f00beb19668ae9350494cb"
+          }
+        },
+        {
+          "client_id": "3588451627-sh2gfmps27bia0ro0qubo5agpobpr9ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCassYxDL8NkUN3SnOZM7MkCQVk3M2_xE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3588451627-sh2gfmps27bia0ro0qubo5agpobpr9ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

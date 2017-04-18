@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/pleasantbg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT US" />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT CFC" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/map"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="FIND US\n (Location)" />
+
+
+
+            <TextView
+        android:id="@+id/Addr_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:text="ADDRESS:"
+        android:textColor="#4689C8"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+            <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="right"
+        android:paddingTop="15dp"
+        android:inputType="textMultiLine"
+        android:text="@string/add1"
+        android:textColor="?android:attr/textColorLinkInverse" />
+    <TextView
+        android:id="@+id/phno_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:text="Contact Numbers:"
+        android:textColor="#4689C8"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:gravity="right"
+        android:inputType="textMultiLine"
+        android:text="@string/nos"
+        android:textColor="?android:attr/textColorLinkInverse" />
+
+    <TextView
+        android:id="@+id/mailid_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:text="E-Mail Id:"
+        android:textColor="#4689C8"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:gravity="right"
+        android:inputType="textMultiLine"
+        android:text="bethelmission@gmail.com"
+        android:textColor="?android:attr/textColorLinkInverse" />
+
+    <TextView
+        android:id="@+id/msg_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Contact Us"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="25dp"
+                android:text="NAME"
+                android:textColor="#4689C8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Enter Name"
+                android:ems="10"
+                android:id="@+id/editText3" />
+            <TextView
+                android:id="@+id/id_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="25dp"
+                android:text="MAIL-ID"
+                android:textColor="#4689C8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:hint="Enter Email"
+                android:id="@+id/editText5" />
+
+            <TextView
+                android:id="@+id/cellno_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="25dp"
+                android:text="Cell Phone"
+                android:textColor="#4689C8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="Enter Phone Number"
+                android:ems="10"
+                android:id="@+id/editText4" />
+
+            <TextView
+                android:id="@+id/message_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="25dp"
+                android:text="Message"
+                android:textColor="#4689C8"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:hint="Enter Your Message"
+                android:id="@+id/editText6" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="SUBMIT" />
+
+
+            <Button
+                android:id="@+id/viewbtn"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="VIEW" />
+        </LinearLayout>
+            </ScrollView>
+    </LinearLayout>
